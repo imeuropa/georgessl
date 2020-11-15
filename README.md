@@ -1,5 +1,7 @@
 # georgessl
 
+**Please do not use this in a production system of any sort, it could easily not work**
+
 georgessl is an extremely simple pki manager. It shouldn't be used in any production system but for managing certificates for a project that doensn't rely on the certificates it does the job well enough. With this tool you are able to:
 1. Issue root CA certificates
 2. Issue indermediate CA certificates using root CA certificates
