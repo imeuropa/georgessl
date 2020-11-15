@@ -26,3 +26,5 @@ In order to install Python 3 and OpenSSL on debian based systems run the followi
 2. `sudo apt update`
 3. `sudo apt install python3.8 -y`
 4. `sudo apt install openssl -y`
+
+The project is licensed under the "Creative Commons CC0" public domain license which allows anyone to do anything with the code.
