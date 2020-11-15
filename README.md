@@ -15,6 +15,7 @@ For this to work with Windows systems you need to install the command line packa
 1. Run `Set-ExecutionPolicy RemoteSigned -scope CurrentUser`. In case it fails try to launch powershell as administrator from the start menu.
 2. Run `iwr -useb get.scoop.sh | iex`, if it doesn't work try `Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')`
 3. Finally run `scoop install openssl`
+4. You can either run `scoop install python` or go to https://python.org/ and download the installer for the latest version (preferrably 3.8 64x). During setup it is ideal to have the `Add python 3.8 to PATH` checkbox checked so scripts can be run simply with `py script.py` or `python script.py` 
 
 ### For Debian based systems
 
